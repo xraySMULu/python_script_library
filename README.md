@@ -1,26 +1,10 @@
-# SMS Spam Dectector Project
+# Python Scripts
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![Made-with-Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 [![made-with-VS-Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic)](https://code.visualstudio.com/)
 
 ## Summary
 
-This project aims to build a machine learning model to classify SMS messages as "spam" or "ham" (not spam) using TF-IDF vectorization and LinearSVC. It involves reading the "SMSSpamCollection" dataset, transforming text data into numerical features, and training a model to distinguish between spam and ham messages.
-
-The process starts with data preprocessing, including cleaning, normalizing text, and splitting data into training and testing sets. TF-IDF vectorization converts text messages into numerical features, quantifying word importance.
-
-A machine learning pipeline integrates TF-IDF vectorization and LinearSVC for streamlined text transformation and model training. The model is trained on the training set and evaluated on the testing set.
-
-Finally, a user-friendly interface using Gradio allows users to input new SMS messages and receive real-time spam or ham predictions, making the model accessible for practical use.
-
-## Files
-
-| File | Function |                        
-| ---- | ------------- |
-| README.md | Project info |
-| gradio_sms_text_classification.ipynb | Main project markup |
-| sms_text_classification_solution.ipynb | Main project markup |
-| Resources/SMSSpamCollection.csv| Data source |
+This project is a repo for python scripts
 
 ## Documentation
 https://pandas.pydata.org/docs/reference/frame.html
