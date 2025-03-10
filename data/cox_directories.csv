@@ -1,0 +1,6 @@
+name,uri
+CoxFacultyViews,C:\docker\sc102\cgilbert\DockerDev\cm\website\Views\Faculty\Cornerstone\Cox\
+CoxNewsViews,C:\docker\sc102\cgilbert\DockerDev\cm\website\Views\News\Cornerstone\Cox\
+CoxScripts,C:\docker\sc102\cgilbert\DockerDev\cm\website\scripts\Cornerstone\components
+CoxCss,C:\docker\sc102\cgilbert\DockerDev\cm\website\style\Cornerstone\components
+CoxEverthing,C:\docker\sc102\cgilbert\DockerDev\cm\website\
