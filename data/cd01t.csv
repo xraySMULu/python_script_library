@@ -1,0 +1,10 @@
+name,uri
+bin,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\bin
+include_foundation,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\App_Config\Include\Foundation
+include_feature,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\App_Config\Include\Feature
+include_project,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\App_Config\Include\Project
+views_cox,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\Views
+views_project_cox,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\Views\Project
+assets,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\Assets
+js,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\js
+style,\\ssc3wbcd01t.smu.edu\e$\SitecoreWebsite\XP\Website\style

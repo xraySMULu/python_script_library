@@ -16,9 +16,25 @@ def create_zip_from_directories(csv_file, archive_path):
                     if os.path.isdir(directory):
                         for root, _, files in os.walk(directory):
                             for file in files:
-                                if 'Cox' in file:
+                                if 'bin' in directory:
+                                    if 'SMU.Cox' in file:
+                                        file_path = os.path.join(root, file)
+                                        zipf.write(file_path, nam + '\\' + os.path.relpath(file_path, directory))
+                                        if os.path.isfile(file_path):
+                                            os.remove(file_path)
+                                elif 'COX' in directory:                                
                                     file_path = os.path.join(root, file)
                                     zipf.write(file_path, nam + '\\' + os.path.relpath(file_path, directory))
+                                    if os.path.isfile(file_path):
+                                        os.remove(file_path)
+                                    if os.path.isdir(directory):
+                                            os.rmdir(directory)
+                                else:
+                                    file_path = os.path.join(root, file)
+                                    zipf.write(file_path, nam + '\\' + os.path.relpath(file_path, directory))
+                                    if os.path.isfile(file_path):
+                                            os.remove(file_path)
+                                
                 else:
                     print(f"Skipping row {row} as it does not have enough columns.")
 
